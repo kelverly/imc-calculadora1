@@ -1,0 +1,135 @@
+@charset "UTF-08";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    background-color:  rgb(250, 248, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    height: 20dvh;
+    padding: 10px;
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+}
+h1{
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 1.6em;
+    color: #016FB9;
+}
+.apresent{
+    padding: 10px;
+    font-size: 1.1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+}
+.apresent p{
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+section.imc{
+    padding: 10px;
+    margin: 10px;
+}
+form{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    background-color:#2a8ca5;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+label{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+input{
+    padding: 3px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(17, 0, 255, 0.651);
+    box-shadow:  rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.limpar{
+    background-color: #fac625;
+    height: 30px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.limpar:hover{
+    background-color: rgb(226, 83, 0);
+    transition: 0.5s;
+}
+.verificar{
+    background-color: #3ab9d9;
+    height: 30px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.verificar:hover{
+    background-color: #005a96;
+    transition: 0.5s;
+}
+
+#res{
+    background: #3ab9d9;
+    height: 20px;
+    width: 80px;
+    text-align:center;
+    padding: 5px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 10px;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+table{
+    width: 300px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 10px;
+}
+caption{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 5px;
+}
+tr{
+    background-color: rgb(255, 255, 255);
+}
+td, th{
+    border: 1px solid rgb(199, 199, 199);
+    padding: 8px;
+    text-align:left; 
+    vertical-align: top;
+}
+thead, tfoot{
+    color:  #016FB9;
+}
+thead > tr > th{  
+    background-color: rgb(214, 214, 214);
+}
+.num{
+    text-align: right;
+}
